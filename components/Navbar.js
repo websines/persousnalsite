@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           <a
             className="flex-none text-xl font-semibold dark:text-white"
-            href="#"
+            href="/"
             aria-label="Brand"
           >
             Brand
@@ -73,13 +73,13 @@ export default function Navbar() {
             </a>
             <a
               className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-              href="#"
+              href="/menu"
             >
               Menu
             </a>
             <a
               className="font-medium text-gray-500 hover:text-gray-400 sm:py-6 dark:text-gray-400 dark:hover:text-gray-500"
-              href="#"
+              href="/upgrades"
             >
               Upgrades
             </a>

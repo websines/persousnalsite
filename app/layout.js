@@ -4,6 +4,9 @@ import PrelineScript from "@/components/Preline";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TopBar from "@/components/TopBar";
+import { Suspense } from "react";
+import { FacebookPixelEvents } from "@/components/Trackings/PixelTracking";
+import GoogleAnalytics from "@/components/Trackings/GoogleAnalytics";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,11 +18,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="light">
-      <body className={`${inter.className} bg-gray-100`}>
+      <GoogleAnalytics />
+      <body className={`${inter.className} bg-white`}>
         <TopBar />
         <Navbar />
         {children}
         <Footer />
+        <Suspense fallback={null}>
+          <FacebookPixelEvents />
+        </Suspense>
       </body>
       <PrelineScript />
     </html>

@@ -57,7 +57,7 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/team"
+                    href="/about"
                   >
                     About us
                   </a>
@@ -65,17 +65,17 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/blog"
+                    href="/policy"
                   >
-                    Lorem
+                    Privacy Policy
                   </a>
                 </p>
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/contact"
+                    href="/toc"
                   >
-                    Contact
+                    Terms of Service
                   </a>{" "}
                 </p>
                 <p>
@@ -119,7 +119,8 @@ const Footer = () => {
           <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
             <div className="flex justify-between items-center">
               <p className="text-sm text-gray-400">
-                ©WEBWWISE | ALL RIGHTS RESERVED. {new Date().getFullYear()}
+                ©PERSOUSNALCHEF | ALL RIGHTS RESERVED.{" "}
+                {new Date().getFullYear()}
               </p>
             </div>
 
