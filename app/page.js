@@ -6,7 +6,7 @@ import UpgradesSection from "@/components/UpgradesSection";
 import Link from "next/link";
 export default function Home() {
   return (
-    <main>
+    <main className="bg-gray-50">
       <section id="slide-1" className="w-full min-h-screen relative">
         <video
           className="absolute inset-0 w-full h-full object-cover"
