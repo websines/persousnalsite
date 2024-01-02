@@ -26,11 +26,11 @@ export default function Home() {
             Have Your Own Private Chef In Your Home!
           </h1>
           <p className="mt-6 font-medium text-white text-xs text-center">
-            *Lorem Ipsum text
+            Have A Private Sous Chef in your Home Every Week
           </p>
           <Link
             href="/menu"
-            className="sm:m-2 mt-4 px-12 py-4 sm:px-20 sm:py-6 bg-black text-white font-medium text-lg hover:bg-white hover:text-black duration-300 ease-in-out"
+            className="sm:m-2 mt-4 px-12 py-4 sm:px-20 sm:py-6 bg-green-500 text-white font-medium text-lg hover:bg-white hover:text-black duration-300 ease-in-out"
           >
             Get Started!
           </Link>

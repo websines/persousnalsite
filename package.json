@@ -20,7 +20,8 @@
     "prisma": "^5.7.1",
     "react": "^18",
     "react-dom": "^18",
-    "react-facebook-pixel": "^1.0.4"
+    "react-facebook-pixel": "^1.0.4",
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",

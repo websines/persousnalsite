@@ -1,24 +1,27 @@
 import React from "react";
+import { IoTime } from "react-icons/io5";
+import { FaBowlFood } from "react-icons/fa6";
 
 export default function Services() {
   return (
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-green-400 bg-opacity-80">
       <div class="grid md:grid-cols-2 gap-12">
         <div class="lg:w-3/4">
           <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl dark:text-white">
-            Collaborative tools to design better user experience
+            Professional Chefs at your service
           </h2>
           <p class="mt-3 text-gray-800 dark:text-gray-400">
-            We help businesses bring ideas to life in the digital world, by
-            designing and implementing the technology tools that they need to
-            win.
+            Every Thursday you'll receive a shopping list from us. Make sure you
+            have everything 24 hours prior to your scheduled visit! We arrive,
+            our Chefs Sous it up, and you're left with a clean, organized
+            kitchen loaded with ready to finish and serve meals!
           </p>
           <p class="mt-5">
             <a
               class="inline-flex items-center gap-x-1 font-medium text-blue-600 dark:text-blue-500"
-              href="#"
+              href="/menu"
             >
-              Contact sales to learn more
+              See our pricings!
               <svg
                 class="flex-shrink-0 w-4 h-4 transition ease-in-out group-hover:translate-x-1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -40,65 +43,37 @@ export default function Services() {
         <div class="space-y-6 lg:space-y-10">
           <div class="flex">
             <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700 dark:text-gray-200">
-              <svg
-                class="flex-shrink-0 w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-              </svg>
+              <FaBowlFood />
             </span>
             <div class="ms-5 sm:ms-8">
-              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Industry-leading documentation
+              <h3 class="text-base sm:text-2xl font-semibold text-gray-800 dark:text-gray-200">
+                Great Food
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                Our documentation and extensive Client libraries contain
-                everything a business needs to build a custom integration in a
-                fraction of the time.
+                Fresh, Hot Meals Daily. Prepared by a professional Finished by
+                you! Enjoy higher quality meals with less effort!
               </p>
             </div>
           </div>
 
           <div class="flex">
             <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700 dark:text-gray-200">
-              <svg
-                class="flex-shrink-0 w-5 h-5"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              >
-                <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
-                <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
-              </svg>
+              <IoTime />
             </span>
             <div class="ms-5 sm:ms-8">
-              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
-                Developer community support
+              <h3 class="text-base sm:text-2xl font-semibold text-gray-800">
+                Save Time
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                We actively contribute to open-source projects—giving back to
-                the community through development, patches, and sponsorships.
+                Time is your most valuable resource! Save 10 hours per week. We
+                prepare - You Relax. Meals are Mix, heat, eat! Everything
+                premeasured designed for a 1-2 pan meal!
               </p>
             </div>
           </div>
 
           <div class="flex">
-            <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700 dark:text-gray-200">
+            <span class="flex-shrink-0 inline-flex justify-center items-center w-[46px] h-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-slate-900 dark:border-gray-700">
               <svg
                 class="flex-shrink-0 w-5 h-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -116,12 +91,13 @@ export default function Services() {
               </svg>
             </span>
             <div class="ms-5 sm:ms-8">
-              <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-gray-200">
+              <h3 class="text-base sm:text-2xl font-semibold text-gray-800">
                 Simple and affordable
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                From boarding passes to movie tickets, there's pretty much
-                nothing you can't store with Preline.
+                Buy your favorite brands! Pick your own quality and freshness!
+                Use your coupons and save! Don't settle for bulk packaged food
+                from delivery companies.
               </p>
             </div>
           </div>
