@@ -13,7 +13,7 @@ export default function Navbar() {
             href="/"
             aria-label="Brand"
           >
-            <img src="/logo.png" alt="logo" className="-my-4 h-24 w-full" />
+            <img src="/logo.png" alt="logo" className="-my-4 h-24 w-36" />
           </a>
           <div className="sm:hidden">
             <button
