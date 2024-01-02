@@ -1,4 +1,7 @@
 import Link from "next/link";
+import { FaBowlFood } from "react-icons/fa6";
+import { IoTime } from "react-icons/io5";
+import { FaMoneyCheckAlt } from "react-icons/fa";
 
 export default function page() {
   return (
@@ -15,14 +18,15 @@ export default function page() {
         <div className="bg-white p-6 text-black w-full sm:h-full h-auto sm:w-[30%]">
           <h1 className="text-3xl sm:text-4xl  font-extrabold">About Us</h1>
           <p className="my-4 text-sm font-medium">
-            Our team are best in class and responsible for maximizing account
-            goals and efficiently executing vital daily account tasks.
+            Our Trained Professionals will visit your home once weekly to slice,
+            dice, mix and organize 3 meals a day for your family for 5 days of
+            the week!
           </p>
           <Link
-            href="/services"
+            href="/menu"
             className="my-4 px-6 py-2 sm:py-4 font-semibold flex flex-row space-x-2 border-b-2 border-cyan-300 max-w-[80%] hover:scale-90 duration-300 ease-in-out"
           >
-            View our Services
+            View our Menu
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,53 +50,34 @@ export default function page() {
         <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
           <div class="lg:col-span-1">
             <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-gray-200">
-              What is AI Power Grid (AIPG)?
+              What is <span className="text-green-400">PerSOUSnal Chef?</span>
             </h2>
             <p class="mt-2 md:mt-4 text-gray-500">
-              AI Power Grid (AIPG) is pioneering a revolutionary approach by
-              offering free access to cutting-edge Large Language Model (LLM)
-              inference and AI Art generation, validated on an immutable
-              blockchain to ensure authenticity and security. As a beacon of
-              democratization in AI, AIPG empowers developers by providing an
-              efficient platform to deploy, share, and enhance their models with
-              real-time user feedback.
+              Our Trained Professionals will visit your home once weekly to
+              slice, dice, mix and organize 3 meals a day for your family for 5
+              days of the week! Buy your favorite brands! Pick your own quality
+              and freshness! Use your coupons and save! Don't settle for bulk
+              packaged food from delivery companies.
             </p>
           </div>
 
           <div class="lg:col-span-2">
             <div class="grid sm:grid-cols-2 gap-8 md:gap-12">
               <div class="flex gap-x-5">
-                <svg
-                  class="flex-shrink-0 mt-1 w-6 h-6 text-blue-600 dark:text-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <rect width="18" height="10" x="3" y="11" rx="2" />
-                  <circle cx="12" cy="5" r="2" />
-                  <path d="M12 7v4" />
-                  <line x1="8" x2="8" y1="16" y2="16" />
-                  <line x1="16" x2="16" y1="16" y2="16" />
-                </svg>
+                <IoTime className="text-green-400 h-12 w-12" />
                 <div class="grow">
                   <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-                    ASIC resistant
+                    Save Time
                   </h3>
                   <p class="mt-1 text-gray-600 dark:text-gray-400">
-                    Uses the KAWPOW hashing algorithm to discourage the
-                    development of ASIC hardware.
+                    Time is your most valuable resource! Save 10 hours per week.
+                    We prepare - You Relax.
                   </p>
                 </div>
               </div>
               <div class="flex gap-x-5">
                 <svg
-                  class="flex-shrink-0 mt-1 w-6 h-6 text-blue-600 dark:text-blue-500"
+                  class="flex-shrink-0 mt-1 w-6 h-6 text-green-400 dark:text-blue-500"
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
                   height="24"
@@ -111,61 +96,30 @@ export default function page() {
                     Simple and affordable
                   </h3>
                   <p class="mt-1 text-gray-600 dark:text-gray-400">
-                    From boarding passes to movie tickets, there's pretty much
-                    nothing you can't store with Preline.
+                    You buy, we prepare
                   </p>
                 </div>
               </div>
               <div class="flex gap-x-5">
-                <svg
-                  class="flex-shrink-0 mt-1 w-6 h-6 text-blue-600 dark:text-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
-                </svg>
+                <FaBowlFood className="h-8 w-8 text-green-400" />
                 <div class="grow">
                   <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-                    Fair launch
+                    Great Quality
                   </h3>
                   <p class="mt-1 text-gray-600 dark:text-gray-400">
-                    Everyone has equal opportunity to mine or purchase HVQ since
-                    day one.
+                    Fresh, Hot Meals Daily. By Professionals.
                   </p>
                 </div>
               </div>
               <div class="flex gap-x-5">
-                <svg
-                  class="flex-shrink-0 mt-1 w-6 h-6 text-blue-600 dark:text-blue-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M22 21v-2a4 4 0 0 0-3-3.87" />
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
+                <FaMoneyCheckAlt className="text-green-400 h-12 w-12" />
                 <div class="grow">
                   <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-                    No ICO
+                    Save Money
                   </h3>
                   <p class="mt-1 text-gray-600 dark:text-gray-400">
-                    No pre-mine
+                    Buy your favorite brands! Pick your own quality and
+                    freshness! Use your coupons and save!
                   </p>
                 </div>
               </div>
@@ -180,22 +134,17 @@ export default function page() {
             <div class="space-y-6 sm:space-y-8">
               <div class="space-y-2 md:space-y-4">
                 <h2 class="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-gray-200">
-                  The AIPG coin is the native cryptocurrency of the AI Power
-                  Grid platform.
+                  You Shop, We Chop
                 </h2>
                 <p class="text-gray-500">
-                  Our ecosystem thrives on open-source collaboration, fostering
-                  innovation and creativity, while our marketplace and NFT AI
-                  Gallery enable artists and AI enthusiasts to monetize their
-                  work and contribute to the rapidly evolving AI landscape. With
-                  AIPG, we're not just building technology; we're nurturing a
-                  community where every participant is an integral part of
-                  shaping the future of AI.
+                  Our Trained Professionals will visit your home once weekly to
+                  slice, dice, mix and organize 3 meals a day for your family
+                  for 5 days of the week!
                 </p>
               </div>
               <ul role="list" class="space-y-2 sm:space-y-4">
                 <li class="flex space-x-3">
-                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-green-400 dark:bg-blue-800/30 dark:text-blue-500">
                     <svg
                       class="flex-shrink-0 h-3.5 w-3.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -213,12 +162,12 @@ export default function page() {
                   </span>
 
                   <span class="text-sm sm:text-base text-gray-500">
-                    <span class="font-bold">Decentralized</span> AI services
+                    <span class="font-bold">Quality</span> Food
                   </span>
                 </li>
 
                 <li class="flex space-x-3">
-                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-green-400 dark:bg-blue-800/30 dark:text-blue-500">
                     <svg
                       class="flex-shrink-0 h-3.5 w-3.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -236,12 +185,12 @@ export default function page() {
                   </span>
 
                   <span class="text-sm sm:text-base text-gray-500">
-                    NFT <span class="font-bold">Art Gallery</span>
+                    Save <span class="font-bold">Time</span>
                   </span>
                 </li>
 
                 <li class="flex space-x-3">
-                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-green-400 dark:bg-blue-800/30 dark:text-blue-500">
                     <svg
                       class="flex-shrink-0 h-3.5 w-3.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -259,11 +208,11 @@ export default function page() {
                   </span>
 
                   <span class="text-sm sm:text-base text-gray-500">
-                    Blockchain-Validated Outputs
+                    Call For Parties
                   </span>
                 </li>
                 <li class="flex space-x-3">
-                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-blue-600 dark:bg-blue-800/30 dark:text-blue-500">
+                  <span class="mt-0.5 h-5 w-5 flex justify-center items-center rounded-full bg-blue-50 text-green-400 dark:bg-blue-800/30 dark:text-blue-500">
                     <svg
                       class="flex-shrink-0 h-3.5 w-3.5"
                       xmlns="http://www.w3.org/2000/svg"
@@ -281,7 +230,7 @@ export default function page() {
                   </span>
 
                   <span class="text-sm sm:text-base text-gray-500">
-                    Rapid Deployment and Community Feedback Loop
+                    Have more time with your family!
                   </span>
                 </li>
               </ul>
@@ -289,8 +238,8 @@ export default function page() {
           </div>
           <div>
             <img
-              class="rounded-xl"
-              src="https://images.unsplash.com/photo-1648737963503-1a26da876aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80"
+              className="rounded h-[900px] w-[900px] object-contain"
+              src="/img-1.jpg"
               alt="Image Description"
             />
           </div>

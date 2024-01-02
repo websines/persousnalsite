@@ -96,7 +96,7 @@ export default function UpgradesSection() {
             </p>
           </div>
         </Link>
-        <a
+        <Link
           class="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80')] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
           href="#"
         >
@@ -124,7 +124,7 @@ export default function UpgradesSection() {
               </svg>
             </div>
           </div>
-        </a>
+        </Link>
       </div>
     </div>
   );
