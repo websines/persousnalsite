@@ -61,9 +61,9 @@ export default function Home() {
       <div className="p-8 md:p-16">
         <Services />
       </div>
-      <div className="p-8 md:p-16" id="#slide-2">
+      {/* <div className="p-8 md:p-16" id="#slide-2">
         <Features />
-      </div>
+      </div> */}
       <div className="p-8 md:p-16 flex flex-col justify-center items-center">
         <HomepageFAQ />
         <div>
