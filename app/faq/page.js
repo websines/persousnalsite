@@ -1,6 +1,16 @@
-import React from "react";
+"use client";
+import { useEffect } from "react";
 import Link from "next/link";
 export default function page() {
+  useEffect(() => {
+    function setTheme() {
+      if (typeof window !== "undefined" && window.localStorage) {
+        localStorage.setItem("theme", "light");
+      }
+    }
+
+    setTheme();
+  }, []);
   return (
     <>
       <section className="w-full h-96 flex flex-row items-end justify-end sm:justify-start p-4 sm:py-12 sm:px-32 relative">
