@@ -12,16 +12,19 @@ export default function page() {
           className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         />
         <div className="bg-white p-6 text-black w-full sm:h-full h-auto sm:w-[30%]">
-          <h1 className="text-3xl sm:text-4xl  font-extrabold">FAQs</h1>
+          <h1 className="text-3xl sm:text-4xl  font-extrabold">
+            Privacy Policy
+          </h1>
           <p className="my-4 text-sm font-medium">
-            Our team are best in class and responsible for maximizing account
-            goals and efficiently executing vital daily account tasks.
+            Our Trained Professionals will visit your home once weekly to slice,
+            dice, mix and organize 3 meals a day for your family for 5 days of
+            the week!
           </p>
           <Link
-            href="/services"
+            href="/menu"
             className="my-4 px-6 py-2 sm:py-4 font-semibold flex flex-row space-x-2 border-b-2 border-cyan-300 max-w-[80%] hover:scale-90 duration-300 ease-in-out"
           >
-            View our Services
+            View our Menu
             <span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -39,6 +42,16 @@ export default function page() {
               </svg>
             </span>
           </Link>
+        </div>
+      </section>
+      <section className="p-8 md:p-16">
+        <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
+          <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+            Privacy Policy
+          </h2>
+          <p class="mt-1 text-gray-600 dark:text-gray-400">
+            WE SET IT UP! WE EDUCATE YOU!
+          </p>
         </div>
       </section>
     </>
