@@ -27,7 +27,7 @@ export default function HomepageFAQ() {
                 class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-one"
               >
-                Can I cancel at anytime?
+                What would you say...you do here?
                 <svg
                   class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,9 +63,18 @@ export default function HomepageFAQ() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-one"
               >
                 <p class="text-gray-600 dark:text-gray-400">
-                  Yes, you can cancel anytime no questions are asked while you
-                  cancel but we would highly appreciate if you will give us some
-                  feedback.
+                  We are your private sous chef! We prepare all your food to cut
+                  down the time it takes for you to make a home cooked meal
+                  every week! Similar to how restaurants work, in the morning a
+                  sous chef comes in, slices all the vegetables, fires all the
+                  soups, prepares everything for quick turn around for the
+                  evening. That's what we're doing here, in your home, for you!
+                  Everything left for you will be quick and simple. Here's a
+                  quick rundown - You sign up, every Thursday you'll get an
+                  email from us with your shopping list. Make sure you've got
+                  all of that for before your Sous Chefs scheduled arrival. Sit
+                  back, relax! We'll prep it all so you have quick, easy to cook
+                  meals with minimal mess.
                 </p>
               </div>
             </div>
@@ -78,7 +87,7 @@ export default function HomepageFAQ() {
                 class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-two"
               >
-                My team has credits. How do we use them?
+                So we buy our own food?
                 <svg
                   class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -114,8 +123,11 @@ export default function HomepageFAQ() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-two"
               >
                 <p class="text-gray-600 dark:text-gray-400">
-                  Once your team signs up for a subscription plan. This is where
-                  we sit down, grab a cup of coffee and dial in the details.
+                  Yes, you purchase the food from wherever you like! Use your
+                  coupons, pick your brands, keep your preferences. We prep it
+                  all for you. You get to retain quality control, freshness and
+                  still get your favorite brands. We do the prep work with your
+                  purchases off our lists!
                 </p>
               </div>
             </div>
@@ -128,7 +140,7 @@ export default function HomepageFAQ() {
                 class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-three"
               >
-                How does Preline's pricing work?
+                Can I substitute things?
                 <svg
                   class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -164,8 +176,24 @@ export default function HomepageFAQ() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-three"
               >
                 <p class="text-gray-600 dark:text-gray-400">
-                  Our subscriptions are tiered. Understanding the task at hand
-                  and ironing out the wrinkles is key.
+                  Yes! First, we send out the menus and shopping lists based on
+                  your preferences discussed during intake so there shouldn't be
+                  too much to substitute but you still can as long as you follow
+                  some rules when substituting. Let's say the shopping list
+                  calls for chicken for a chicken parm; another protein is
+                  totally fine, even a friendly fungus (mushroom) can work
+                  there! Is broccoli on the menu but everyone likes cauliflower?
+                  That works! When you substitute, if you're not sure, feel free
+                  to chat or do a quick google search of your substituted
+                  recipe. Taking the chicken parm for example, when you google
+                  search veal parm, tons of recipes come up and they're all
+                  super similar to the chicken. Great sub! If we're going to try
+                  raccoon parmesan, lets maybe pump the brakes there and check
+                  with substitutions how that works. We need to make sure what
+                  we sub still conforms to the meal. Smaller ingredients, such
+                  as parsley, cilantro or some other minor things can sometimes
+                  be wholly skipped without issue. At the end of the day, you're
+                  eating, so we want to make what you love!
                 </p>
               </div>
             </div>
@@ -178,7 +206,7 @@ export default function HomepageFAQ() {
                 class="hs-accordion-toggle group pb-3 inline-flex items-center justify-between gap-x-3 w-full md:text-lg font-semibold text-start text-gray-800 rounded-lg transition hover:text-gray-500 dark:text-gray-200 dark:hover:text-gray-400 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
                 aria-controls="hs-basic-with-title-and-arrow-stretched-collapse-four"
               >
-                How secure is Preline?
+                What if I'm not sure about a substitution?
                 <svg
                   class="hs-accordion-active:hidden block flex-shrink-0 w-5 h-5 text-gray-600 group-hover:text-gray-500 dark:text-gray-400"
                   xmlns="http://www.w3.org/2000/svg"
@@ -214,9 +242,9 @@ export default function HomepageFAQ() {
                 aria-labelledby="hs-basic-with-title-and-arrow-stretched-heading-four"
               >
                 <p class="text-gray-600 dark:text-gray-400">
-                  Protecting the data you trust to Preline is our first
-                  priority. This part is really crucial in keeping the project
-                  in line to completion.
+                  No worries! Just email us at substitutions@persousnalchef.com
+                  or send us a chat, we'll get back to you pretty quickly if it
+                  makes sense or if we have any other suggestions!
                 </p>
               </div>
             </div>

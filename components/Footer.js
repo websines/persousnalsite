@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const Footer = () => {
   return (
     <footer className="flex flex-col">
@@ -14,7 +16,7 @@ const Footer = () => {
               >
                 {/* <img src="/logo.png" className="scale-90" /> */}
                 <span className="text-3xl text-white font-semibold">
-                  PersousnalChef
+                  PerSOUSnalChef
                 </span>
               </a>
             </div>
@@ -24,28 +26,20 @@ const Footer = () => {
 
               <div className="mt-3 grid space-y-3">
                 <p>
-                  <a
+                  <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/services/web-design"
+                    href="/menu"
                   >
-                    Lorem
-                  </a>
+                    Menu
+                  </Link>
                 </p>
                 <p>
-                  <a
+                  <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/services/web-development"
+                    href="/Upgrades"
                   >
-                    Lorem
-                  </a>
-                </p>
-                <p>
-                  <a
-                    className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/services/seo"
-                  >
-                    Lorem
-                  </a>
+                    Upgrades
+                  </Link>
                 </p>
               </div>
             </div>
@@ -55,36 +49,36 @@ const Footer = () => {
 
               <div className="mt-3 grid space-y-3">
                 <p>
-                  <a
+                  <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                     href="/about"
                   >
                     About us
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a
+                  <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                     href="/policy"
                   >
                     Privacy Policy
-                  </a>
+                  </Link>
                 </p>
                 <p>
-                  <a
+                  <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                     href="/toc"
                   >
                     Terms of Service
-                  </a>{" "}
+                  </Link>{" "}
                 </p>
                 <p>
-                  <a
+                  <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                     href="/faq"
                   >
                     FAQs
-                  </a>{" "}
+                  </Link>{" "}
                 </p>
               </div>
             </div>

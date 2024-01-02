@@ -70,9 +70,9 @@ export default function page() {
                 Rice Cooker
               </h3>
               <p class="mt-3 text-gray-800 dark:text-gray-200">
-                Purchase one time for your kitchen so we can store and organize
-                everything! You’ll feel like you’re in a chef's kitchen with
-                these!
+                A great and simple carb, rice cookers get rice right, every time
+                We’ll prep it and leave instructions so you have hot, fluffy,
+                rice on demand all the time!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
                 $99
@@ -86,14 +86,14 @@ export default function page() {
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/ricecooker.jpg"
+                src="/storage1.jpg"
                 alt="Image Description"
               />
             </div>
 
             <div class="mt-7 p-4 rounded">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
-                Rice Cooker
+                PerSOUSnal Chef Kitchen Organizers
               </h3>
               <p class="mt-3 text-gray-800 dark:text-gray-200">
                 Purchase one time for your kitchen so we can store and organize
@@ -112,19 +112,19 @@ export default function page() {
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/ricecooker.jpg"
+                src="/bread-maker.jpg"
                 alt="Image Description"
               />
             </div>
 
             <div class="mt-7 p-4 rounded">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
-                Rice Cooker
+                Bread Maker
               </h3>
               <p class="mt-3 text-gray-800 dark:text-gray-200">
-                Purchase one time for your kitchen so we can store and organize
-                everything! You’ll feel like you’re in a chef's kitchen with
-                these!
+                Would you like to come home to the whole house smelling like a
+                fresh loaf of bread? You’ll smell the difference when you walk
+                in and you can’t wait to taste the difference!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
                 $99
@@ -138,19 +138,19 @@ export default function page() {
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/ricecooker.jpg"
+                src="/sous-vide.jpg"
                 alt="Image Description"
               />
             </div>
 
             <div class="mt-7 p-4 rounded">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
-                Rice Cooker
+                Sous Vide Setup
               </h3>
               <p class="mt-3 text-gray-800 dark:text-gray-200">
-                Purchase one time for your kitchen so we can store and organize
-                everything! You’ll feel like you’re in a chef's kitchen with
-                these!
+                The easiest roasts you’ll ever make and never make a mistake
+                Yours to keep, with this upgrade, you will never taste more
+                flavorful and tender meat!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
                 $99
@@ -164,19 +164,20 @@ export default function page() {
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/ricecooker.jpg"
+                src="/vaccum-sealer.jpg"
                 alt="Image Description"
               />
             </div>
 
             <div class="mt-7 p-4 rounded">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
-                Rice Cooker
+                Vaccum Sealer
               </h3>
               <p class="mt-3 text-gray-800 dark:text-gray-200">
-                Purchase one time for your kitchen so we can store and organize
-                everything! You’ll feel like you’re in a chef's kitchen with
-                these!
+                We require all clients to have a vacuum sealer,to serve crisp
+                vegetables on a friday that were prepared on monday This is also
+                required for Sous Vide and we promise, this will be life
+                changing!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
                 $99
