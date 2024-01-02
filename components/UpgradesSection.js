@@ -16,7 +16,7 @@ export default function UpgradesSection() {
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <Link
           class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/upgrades"
         >
           <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
             <img
@@ -31,14 +31,15 @@ export default function UpgradesSection() {
 
           <div class="mt-7">
             <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
-              Demo text
+              PerSOUSnal Chef Kitchen Organizers
             </h3>
             <p class="mt-3 text-gray-800 dark:text-gray-200">
-              Produce professional, reliable streams easily leveraging Preline's
-              innovative broadcast studio
+              Purchase one time for your kitchen so we can store and organize
+              everything! You’ll feel like you’re in a chef's kitchen with
+              these!
             </p>
             <p class="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
-              Read more
+              View Details
               <svg
                 class="flex-shrink-0 w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +60,7 @@ export default function UpgradesSection() {
 
         <Link
           class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/upgrades"
         >
           <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
             <img
@@ -71,14 +72,15 @@ export default function UpgradesSection() {
 
           <div class="mt-7">
             <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
-              Onsite
+              Rice Cooker
             </h3>
             <p class="mt-3 text-gray-800 dark:text-gray-200">
-              Optimize your in-person experience with best-in-class capabilities
-              like badge printing and lead retrieval
+              A great and simple carb, rice cookers get rice right, every time
+              We’ll prep it and leave instructions so you have hot, fluffy, rice
+              on demand all the time!
             </p>
             <p class="mt-5 inline-flex items-center gap-x-1 text-blue-600 decoration-2 group-hover:underline font-medium">
-              Read more
+              View Details
               <svg
                 class="flex-shrink-0 w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"

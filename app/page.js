@@ -64,6 +64,9 @@ export default function Home() {
       {/* <div className="p-8 md:p-16" id="#slide-2">
         <Features />
       </div> */}
+      <section className="p-8 md:p-16" id="#pricings">
+        <PricingSection />
+      </section>
       <div className="p-8 md:p-16 flex flex-col justify-center items-center">
         <HomepageFAQ />
         <div>
@@ -75,9 +78,7 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <section className="p-8 md:p-16" id="#pricings">
-        <PricingSection />
-      </section>
+
       <div className="p-8 md:p-16">
         <UpgradesSection />
       </div>

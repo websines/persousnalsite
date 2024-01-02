@@ -6,7 +6,7 @@ export default function HomepageFAQ() {
       <div class="grid md:grid-cols-5 gap-10">
         <div class="md:col-span-2">
           <div class="max-w-xs">
-            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight ">
+            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight text-black ">
               Frequently
               <br />
               asked questions
