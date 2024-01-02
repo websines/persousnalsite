@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 export default function page() {
   return (
-    <>
+    <main className="bg-white">
       <section className="w-full h-96 flex flex-row items-end justify-end sm:justify-start p-4 sm:py-12 sm:px-32 relative">
         <video
           src="/video-main.mp4"
@@ -50,7 +50,7 @@ export default function page() {
           </h2>
           <p class="mt-1 text-gray-600">WE SET IT UP! WE EDUCATE YOU!</p>
         </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 p-16">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <Link class="group rounded-xl overflow-hidden" href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
@@ -169,6 +169,6 @@ export default function page() {
           </Link>
         </div>
       </section>
-    </>
+    </main>
   );
 }

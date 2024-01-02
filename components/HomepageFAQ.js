@@ -6,19 +6,19 @@ export default function HomepageFAQ() {
       <div class="grid md:grid-cols-5 gap-10">
         <div class="md:col-span-2">
           <div class="max-w-xs">
-            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+            <h2 class="text-2xl font-bold md:text-4xl md:leading-tight ">
               Frequently
               <br />
               asked questions
             </h2>
-            <p class="mt-1 hidden md:block text-gray-600 dark:text-gray-400">
+            <p class="mt-1 hidden md:block text-gray-600 ">
               Answers to the most frequently asked questions.
             </p>
           </div>
         </div>
 
         <div class="md:col-span-3">
-          <div class="hs-accordion-group divide-y divide-gray-200 dark:divide-gray-700">
+          <div class="hs-accordion-group divide-y divide-gray-200 ">
             <div
               class="hs-accordion pb-3 active"
               id="hs-basic-with-title-and-arrow-stretched-heading-one"
