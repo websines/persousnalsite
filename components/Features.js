@@ -9,7 +9,7 @@ export default function Features() {
       <div className="relative p-6 md:p-16">
         <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
           <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
-            <h2 className="text-2xl text-gray-800 font-bold sm:text-3xl dark:text-gray-200">
+            <h2 className="text-2xl text-gray-800 font-bold sm:text-3xl ">
               Best In Class Services!
             </h2>
 
@@ -20,7 +20,7 @@ export default function Features() {
             >
               <button
                 type="button"
-                className="hs-tab-active:bg-green-300 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-green-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700 active"
+                className="hs-tab-active:bg-green-300 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-green-200 p-4 md:p-5 rounded-xl active"
                 id="tabs-with-card-item-1"
                 data-hs-tab="#tabs-with-card-1"
                 aria-controls="tabs-with-card-1"
@@ -29,10 +29,10 @@ export default function Features() {
                 <span className="flex">
                   <LuPartyPopper className="h-24 w-24" />
                   <span className="grow ml-6">
-                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800  ">
                       Call Us For Parties!
                     </span>
-                    <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    <span className="block mt-1 text-gray-800  ">
                       Having a Dinner Party? Hire your PerSOUSnal Chef to do the
                       heavy lifting!
                     </span>
@@ -42,7 +42,7 @@ export default function Features() {
 
               <button
                 type="button"
-                className="hs-tab-active:bg-green-300 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-green-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+                className="hs-tab-active:bg-green-300 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-green-200 p-4 md:p-5 rounded-xl "
                 id="tabs-with-card-item-2"
                 data-hs-tab="#tabs-with-card-2"
                 aria-controls="tabs-with-card-2"
@@ -51,10 +51,10 @@ export default function Features() {
                 <span className="flex">
                   <GiFamilyHouse className="h-24 w-24" />
                   <span className="grow ml-6">
-                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800  ">
                       Family Gatherings!
                     </span>
-                    <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    <span className="block mt-1 text-gray-800  ">
                       Love your PerSOUSnal Chef! See the same chef weekly! Let
                       them learn you and your families preferences!
                     </span>
@@ -64,7 +64,7 @@ export default function Features() {
 
               <button
                 type="button"
-                className="hs-tab-active:bg-green-300 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-green-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-900 dark:hover:bg-gray-700"
+                className="hs-tab-active:bg-green-300 hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-left hover:bg-green-200 p-4 md:p-5 rounded-xl "
                 id="tabs-with-card-item-3"
                 data-hs-tab="#tabs-with-card-3"
                 aria-controls="tabs-with-card-3"
@@ -73,10 +73,10 @@ export default function Features() {
                 <span className="flex">
                   <FaBowlFood className="h-24 w-24" />
                   <span className="grow ml-6">
-                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 dark:hs-tab-active:text-blue-500 dark:text-gray-200">
+                    <span className="block text-lg font-semibold hs-tab-active:text-blue-600 text-gray-800 ">
                       Quality Food
                     </span>
-                    <span className="block mt-1 text-gray-800 dark:hs-tab-active:text-gray-200 dark:text-gray-200">
+                    <span className="block mt-1 text-gray-800  ">
                       Fresh, Hot Meals Daily. Prepared by a professional
                       Finished by you! Enjoy higher quality meals with less
                       effort!
@@ -96,7 +96,7 @@ export default function Features() {
                   aria-labelledby="tabs-with-card-item-1"
                 >
                   <img
-                    className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                    className="shadow-xl shadow-gray-200 rounded-xl "
                     src="/img-3.jpg"
                     alt="image"
                   />
@@ -109,7 +109,7 @@ export default function Features() {
                   aria-labelledby="tabs-with-card-item-2"
                 >
                   <img
-                    className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                    className="shadow-xl shadow-gray-200 rounded-xl "
                     src="/img-2.jpg"
                     alt="image"
                   />
@@ -122,7 +122,7 @@ export default function Features() {
                   aria-labelledby="tabs-with-card-item-3"
                 >
                   <img
-                    className="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                    className="shadow-xl shadow-gray-200 rounded-xl"
                     src="/img-1.jpg"
                     alt="image"
                   />
@@ -161,7 +161,7 @@ export default function Features() {
           </div>
         </div>
         <div className="absolute inset-0 grid grid-cols-12 w-full h-full">
-          <div className="col-span-full lg:col-span-7 lg:col-start-6 bg-green-400 bg-opacity-80 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full dark:bg-white/[.075]"></div>
+          <div className="col-span-full lg:col-span-7 lg:col-start-6 bg-green-400 bg-opacity-80 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full "></div>
         </div>
       </div>
     </div>

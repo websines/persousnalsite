@@ -45,18 +45,13 @@ export default function page() {
       </section>
       <section className="p-8 md:p-16">
         <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
-          <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
+          <h2 class="text-2xl font-bold md:text-4xl md:leading-tight ">
             Kitchen Upgrades
           </h2>
-          <p class="mt-1 text-gray-600 dark:text-gray-400">
-            WE SET IT UP! WE EDUCATE YOU!
-          </p>
+          <p class="mt-1 text-gray-600">WE SET IT UP! WE EDUCATE YOU!</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 p-16">
-          <Link
-            class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 "
-            href="#"
-          >
+          <Link class="group rounded-xl overflow-hidden" href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
@@ -66,10 +61,10 @@ export default function page() {
             </div>
 
             <div class="mt-7 p-4 rounded">
-              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
                 Rice Cooker
               </h3>
-              <p class="mt-3 text-gray-800 dark:text-gray-200">
+              <p class="mt-3 text-gray-800 ">
                 A great and simple carb, rice cookers get rice right, every time
                 We’ll prep it and leave instructions so you have hot, fluffy,
                 rice on demand all the time!
@@ -79,10 +74,7 @@ export default function page() {
               </p>
             </div>
           </Link>
-          <Link
-            class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 "
-            href="#"
-          >
+          <Link class="group rounded-xl overflow-hidden  " href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
@@ -92,10 +84,10 @@ export default function page() {
             </div>
 
             <div class="mt-7 p-4 rounded">
-              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
                 PerSOUSnal Chef Kitchen Organizers
               </h3>
-              <p class="mt-3 text-gray-800 dark:text-gray-200">
+              <p class="mt-3 text-gray-800 ">
                 Purchase one time for your kitchen so we can store and organize
                 everything! You’ll feel like you’re in a chef's kitchen with
                 these!
@@ -105,10 +97,7 @@ export default function page() {
               </p>
             </div>
           </Link>
-          <Link
-            class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 "
-            href="#"
-          >
+          <Link class="group rounded-xl overflow-hidden  " href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
@@ -118,10 +107,10 @@ export default function page() {
             </div>
 
             <div class="mt-7 p-4 rounded">
-              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
                 Bread Maker
               </h3>
-              <p class="mt-3 text-gray-800 dark:text-gray-200">
+              <p class="mt-3 text-gray-800 ">
                 Would you like to come home to the whole house smelling like a
                 fresh loaf of bread? You’ll smell the difference when you walk
                 in and you can’t wait to taste the difference!
@@ -131,10 +120,7 @@ export default function page() {
               </p>
             </div>
           </Link>
-          <Link
-            class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 "
-            href="#"
-          >
+          <Link class="group rounded-xl overflow-hidden  " href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
@@ -144,10 +130,10 @@ export default function page() {
             </div>
 
             <div class="mt-7 p-4 rounded">
-              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600">
                 Sous Vide Setup
               </h3>
-              <p class="mt-3 text-gray-800 dark:text-gray-200">
+              <p class="mt-3 text-gray-800 ">
                 The easiest roasts you’ll ever make and never make a mistake
                 Yours to keep, with this upgrade, you will never taste more
                 flavorful and tender meat!
@@ -157,10 +143,7 @@ export default function page() {
               </p>
             </div>
           </Link>
-          <Link
-            class="group rounded-xl overflow-hidden dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 "
-            href="#"
-          >
+          <Link class="group rounded-xl overflow-hidden  " href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
@@ -170,10 +153,10 @@ export default function page() {
             </div>
 
             <div class="mt-7 p-4 rounded">
-              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 dark:text-gray-200">
+              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
                 Vaccum Sealer
               </h3>
-              <p class="mt-3 text-gray-800 dark:text-gray-200">
+              <p class="mt-3 text-gray-800 ">
                 We require all clients to have a vacuum sealer,to serve crisp
                 vegetables on a friday that were prepared on monday This is also
                 required for Sous Vide and we promise, this will be life

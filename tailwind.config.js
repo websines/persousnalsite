@@ -16,4 +16,5 @@ module.exports = {
     },
   },
   plugins: [require("preline/plugin")],
+  darkMode: "media",
 };
