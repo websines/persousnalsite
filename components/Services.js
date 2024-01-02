@@ -4,7 +4,7 @@ import { FaBowlFood } from "react-icons/fa6";
 
 export default function Services() {
   return (
-    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-green-400 bg-opacity-80 rounded">
+    <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto bg-white rounded">
       <div class="grid md:grid-cols-2 gap-12">
         <div class="lg:w-3/4">
           <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl ">
