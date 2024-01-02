@@ -14,10 +14,10 @@ const Footer = () => {
                 href="#"
                 aria-label="Brand"
               >
-                {/* <img src="/logo.png" className="scale-90" /> */}
-                <span className="text-3xl text-white font-semibold">
+                <img src="/logo.png" />
+                {/* <span className="text-3xl text-white font-semibold">
                   PerSOUSnalChef
-                </span>
+                </span> */}
               </a>
             </div>
 
