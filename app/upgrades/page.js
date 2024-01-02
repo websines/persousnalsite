@@ -51,29 +51,6 @@ export default function page() {
           <p class="mt-1 text-gray-600">WE SET IT UP! WE EDUCATE YOU!</p>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Link class="group rounded-xl overflow-hidden" href="#">
-            <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
-              <img
-                className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/ricecooker.jpg"
-                alt="Image Description"
-              />
-            </div>
-
-            <div class="mt-7 p-4 rounded">
-              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-                Rice Cooker
-              </h3>
-              <p class="mt-3 text-gray-800 ">
-                A great and simple carb, rice cookers get rice right, every time
-                We’ll prep it and leave instructions so you have hot, fluffy,
-                rice on demand all the time!
-              </p>
-              <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
-                $99
-              </p>
-            </div>
-          </Link>
           <Link class="group rounded-xl overflow-hidden  " href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
@@ -101,22 +78,23 @@ export default function page() {
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/bread-maker.jpg"
+                src="/vaccum-sealer.jpg"
                 alt="Image Description"
               />
             </div>
 
             <div class="mt-7 p-4 rounded">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-                Bread Maker
+                Vaccum Sealer
               </h3>
               <p class="mt-3 text-gray-800 ">
-                Would you like to come home to the whole house smelling like a
-                fresh loaf of bread? You’ll smell the difference when you walk
-                in and you can’t wait to taste the difference!
+                We require all clients to have a vacuum sealer,to serve crisp
+                vegetables on a friday that were prepared on monday This is also
+                required for Sous Vide and we promise, this will be life
+                changing!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
-                $99
+                $119
               </p>
             </div>
           </Link>
@@ -139,31 +117,55 @@ export default function page() {
                 flavorful and tender meat!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
-                $99
+                $199
               </p>
             </div>
           </Link>
-          <Link class="group rounded-xl overflow-hidden  " href="#">
+
+          <Link class="group rounded-xl overflow-hidden" href="#">
             <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
               <img
                 className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
-                src="/vaccum-sealer.jpg"
+                src="/ricecooker.jpg"
                 alt="Image Description"
               />
             </div>
 
             <div class="mt-7 p-4 rounded">
               <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
-                Vaccum Sealer
+                Rice Cooker
               </h3>
               <p class="mt-3 text-gray-800 ">
-                We require all clients to have a vacuum sealer,to serve crisp
-                vegetables on a friday that were prepared on monday This is also
-                required for Sous Vide and we promise, this will be life
-                changing!
+                A great and simple carb, rice cookers get rice right, every time
+                We’ll prep it and leave instructions so you have hot, fluffy,
+                rice on demand all the time!
               </p>
               <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
                 $99
+              </p>
+            </div>
+          </Link>
+
+          <Link class="group rounded-xl overflow-hidden  " href="#">
+            <div class="relative pt-[50%] sm:pt-[70%] rounded-xl overflow-hidden">
+              <img
+                className="w-full h-full absolute top-0 start-0 group-hover:scale-105 transition-transform duration-500 ease-in-out rounded-xl object-contain"
+                src="/bread-maker.jpg"
+                alt="Image Description"
+              />
+            </div>
+
+            <div class="mt-7 p-4 rounded">
+              <h3 class="text-xl font-semibold text-gray-800 group-hover:text-gray-600 ">
+                Bread Maker
+              </h3>
+              <p class="mt-3 text-gray-800 ">
+                Would you like to come home to the whole house smelling like a
+                fresh loaf of bread? You’ll smell the difference when you walk
+                in and you can’t wait to taste the difference!
+              </p>
+              <p class="mt-5 text-2xl font-semibold inline-flex items-center gap-x-1 text-green-400">
+                $129
               </p>
             </div>
           </Link>

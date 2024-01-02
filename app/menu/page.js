@@ -54,7 +54,7 @@ export default function page() {
         </div>
         <div className="max-w-sm mx-auto grid gap-6 lg:grid-cols-3 items-start lg:max-w-none">
           <PricingTab
-            popular={false}
+            popular={true}
             planName="Mix, heat, eat!"
             price={99}
             planDescription="For the family who values their time!"
@@ -67,7 +67,7 @@ export default function page() {
             ]}
           />
           <PricingTab
-            popular={true}
+            popular={false}
             planName="Par Cooked!"
             price={149}
             planDescription="For the family who needs a few more minutes in the week!"

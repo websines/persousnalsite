@@ -75,9 +75,9 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="p-8 md:p-16">
+      <section className="p-8 md:p-16" id="#pricings">
         <PricingSection />
-      </div>
+      </section>
       <div className="p-8 md:p-16">
         <UpgradesSection />
       </div>

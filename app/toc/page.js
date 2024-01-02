@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function page() {
   return (
-    <main className="bg-white">
+    <main className="bg-white text-black">
       <section className="w-full h-96 flex flex-row items-end justify-end sm:justify-start p-4 sm:py-12 sm:px-32 relative">
         <video
           src="/video-main.mp4"

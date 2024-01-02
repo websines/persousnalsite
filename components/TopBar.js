@@ -28,9 +28,9 @@ const TopBar = () => {
           >
             Dark Mode
           </Label> */}
-          <p className="text-white text-xs font-semibold">
+          {/* <p className="text-white text-xs font-semibold">
             Announcements and Stuff
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

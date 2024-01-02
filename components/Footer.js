@@ -36,7 +36,7 @@ const Footer = () => {
                 <p>
                   <Link
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/Upgrades"
+                    href="/upgrades"
                   >
                     Upgrades
                   </Link>

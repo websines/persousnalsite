@@ -393,7 +393,7 @@ export default function page() {
                 <p class="text-gray-800 dark:text-gray-200">
                   Children under age 3 are free! We'll happily prep from fresh
                   homemade baby foods if you purchase the ingredients. Just let
-                  us no during intake and we can send add it to your weekly
+                  us know during intake and we can send add it to your weekly
                   shopping list!
                 </p>
               </div>

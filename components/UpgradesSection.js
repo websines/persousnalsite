@@ -6,7 +6,7 @@ export default function UpgradesSection() {
     <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <div class="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
         <h2 class="text-2xl font-bold md:text-4xl md:leading-tight dark:text-white">
-          Upgrades
+          Upgrades Available
         </h2>
         <p class="mt-1 text-gray-600 dark:text-gray-400">
           Upgrade your Kitchen
@@ -98,11 +98,11 @@ export default function UpgradesSection() {
         </Link>
         <Link
           class="group relative flex flex-col w-full min-h-[15rem] bg-center bg-cover rounded-xl hover:shadow-lg transition bg-[url('https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3000&q=80')] dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
-          href="#"
+          href="/upgrades"
         >
           <div class="flex-auto p-4 md:p-6">
             <h3 class="text-xl text-white/[.9] group-hover:text-white">
-              <span class="font-bold">Lorem</span> Ipsum Ipsum Ipsum
+              <span class="font-bold">Quality</span> Equipments for your Kitchen
             </h3>
           </div>
           <div class="pt-0 p-4 md:p-6">

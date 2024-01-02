@@ -19,7 +19,7 @@ export default function Services() {
           <p class="mt-5">
             <a
               class="inline-flex items-center gap-x-1 font-medium text-blue-600 "
-              href="/menu"
+              href="#pricings"
             >
               See our pricings!
               <svg

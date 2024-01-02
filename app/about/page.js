@@ -127,6 +127,35 @@ export default function page() {
           </div>
         </div>
       </div>
+      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div class="mt-5 lg:mt-16 flex flex-row items-center justify-center">
+          <div class="lg:col-span-1">
+            <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-gray-200">
+              Why <span className="text-green-400">PerSOUSnal Chef?</span>
+            </h2>
+            <p class="mt-2 md:mt-4 text-gray-500">
+              Everyone likes eating. You know what people hate? Cleaning. And
+              believe it or not, everyone likes cooking too! Cooking can be
+              overwhelming. A lot of ingredients. A lot of preparing. If you
+              didn't get your recipes matched perfectly, there can be a lot of
+              waste. We solve all of that. We believe cooking should be as fun
+              and rewarding as eating. So we take on all the worst parts of
+              cooking, the prep and cleaning, so you get the best parts. This is
+              how restaurants run! Our chefs come right from the restaurants. A
+              high end restaurant opens their doors at 6AM and has chefs in the
+              kitchen prepping for that evenings seating. How do you think they
+              turn out a 24 oz perfectly cooked porterhouse in 15 minutes? They
+              did 80% of the work that morning. The veggies were chopped and
+              seasoned that morning. The steak was thrown in a sous vide in the
+              afternoon. The potatoes were par baked that morning. PerSOUSnal
+              chef brings all that restaurant quality right into your home.
+              Simply, Easily, Affordably. We want to make cooking as fun and
+              easy as eating. So give us a try. No contracts, no commitments.
+              Let us take care of your family.
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="md:grid md:grid-cols-2 md:items-center md:gap-12 xl:gap-32">
@@ -238,7 +267,7 @@ export default function page() {
           </div>
           <div>
             <img
-              className="rounded h-[900px] w-[900px] object-contain"
+              className="rounded h-[450px] w-[900px] object-contain"
               src="/img-1.jpg"
               alt="Image Description"
             />
